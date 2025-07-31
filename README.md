@@ -19,7 +19,7 @@ In [.NET MAUI SfCartesianChart](https://www.syncfusion.com/maui-controls/maui-ca
     </chart:SfCartesianChart.YAxes>
 
     <chart:ColumnSeries ItemsSource="{Binding Data}"
-                        Fill="DarkSeaGreen"
+                        Fill="CadetBlue"
                         XBindingPath="Name" 
                         YBindingPath="Height">
     </chart:ColumnSeries>
@@ -33,7 +33,7 @@ In [.NET MAUI SfCartesianChart](https://www.syncfusion.com/maui-controls/maui-ca
 <chart:SfCartesianChart>
 
     <chart:SfCartesianChart.PlotAreaBackgroundView>
-        <Border Stroke="PaleVioletRed" StrokeThickness="5"></Border>
+        <Border Stroke="Orange" StrokeThickness="5"></Border>
     </chart:SfCartesianChart.PlotAreaBackgroundView>
 
     . . .
@@ -54,7 +54,7 @@ public class CustomBorderDrawable : IDrawable
 {
     public void Draw(ICanvas canvas, RectF dirtyRect)
     {
-        canvas.StrokeColor = Colors.PaleVioletRed;
+        canvas.StrokeColor = Colors.Orange;
         canvas.StrokeSize = 10;
         canvas.DrawRectangle(dirtyRect);
     }
@@ -86,7 +86,7 @@ This method gives you full control over how the border is rendered, including cu
  
 **Output**
  
- ![Chart_with_area_border_color.png](https://support.syncfusion.com/kb/agent/attachment/article/20750/inline?token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjQ0NTU2Iiwib3JnaWQiOiIzIiwiaXNzIjoic3VwcG9ydC5zeW5jZnVzaW9uLmNvbSJ9.CzijSulM9OzNm6pIIXQlZsR6eTWiWfnpz6sgjfZ74ek)
+ ![Chart_with_area_border_color.png](https://support.syncfusion.com/kb/agent/attachment/article/20750/inline?token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjQ0NTYwIiwib3JnaWQiOiIzIiwiaXNzIjoic3VwcG9ydC5zeW5jZnVzaW9uLmNvbSJ9.6gJwdGo2ld8Bz-8gBLl5yl64OO13nSRR15L3SCRf7Ek) 
 
 ### Troubleshooting
 
@@ -94,4 +94,4 @@ This method gives you full control over how the border is rendered, including cu
 
 If you are facing a path too long exception when building this example project, close Visual Studio and rename the repository to a shorter name before building the project.
 
-For more details, refer to the KB on [How to set area border color for .NET MAUI Cartesian Chart]()
+For more details, refer to the KB on [How to set area border color for .NET MAUI Cartesian Chart](https://support.syncfusion.com/kb/article/20750/how-to-set-area-border-color-for-net-maui-cartesian-chart)
