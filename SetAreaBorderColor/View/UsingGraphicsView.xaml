@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SetAreaBorderColor.UsingGraphicsView"
+                      xmlns:chart="clr-namespace:Syncfusion.Maui.Toolkit.Charts;assembly=Syncfusion.Maui.Toolkit"
+         xmlns:model="clr-namespace:SetAreaBorderColor">
+
+    <ContentPage.BindingContext>
+        <model:PersonViewModel/>
+    </ContentPage.BindingContext>
+
+    <ContentPage.Resources>
+        <model:CustomBorderDrawable x:Key="CustomDrawable" />
+    </ContentPage.Resources>
+
+    <chart:SfCartesianChart>
+
+        <chart:SfCartesianChart.PlotAreaBackgroundView>
+            <GraphicsView Drawable="{StaticResource CustomDrawable}" />
+        </chart:SfCartesianChart.PlotAreaBackgroundView>
+
+        <chart:SfCartesianChart.XAxes>
+            <chart:CategoryAxis/>
+        </chart:SfCartesianChart.XAxes>
+
+        <chart:SfCartesianChart.YAxes>
+            <chart:NumericalAxis/>
+        </chart:SfCartesianChart.YAxes>
+
+        <chart:ColumnSeries ItemsSource="{Binding Data}"
+                        Fill="DarkSeaGreen"
+                        XBindingPath="Name" 
+                        YBindingPath="Height">
+        </chart:ColumnSeries>
+
+    </chart:SfCartesianChart>
+</ContentPage>
