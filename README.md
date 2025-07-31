@@ -31,7 +31,7 @@ In [.NET MAUI SfCartesianChart](https://www.syncfusion.com/maui-controls/maui-ca
 <chart:SfCartesianChart>
 
     <chart:SfCartesianChart.PlotAreaBackgroundView>
-        <Border Stroke="DarkSeaGreen" StrokeThickness="5"></Border>
+        <Border Stroke="PaleVioletRed" StrokeThickness="5"></Border>
     </chart:SfCartesianChart.PlotAreaBackgroundView>
 
     . . .
@@ -52,8 +52,8 @@ public class CustomBorderDrawable : IDrawable
 {
     public void Draw(ICanvas canvas, RectF dirtyRect)
     {
-        canvas.StrokeColor = Colors.DarkSeaGreen;
-        canvas.StrokeSize = 5;
+        canvas.StrokeColor = Colors.PaleVioletRed;
+        canvas.StrokeSize = 10;
         canvas.DrawRectangle(dirtyRect);
     }
 }
@@ -81,10 +81,10 @@ ContentPage.Resources>
 </chart:SfCartesianChart>
 ```
 This method gives you full control over how the border is rendered, including custom shapes.
-
+ 
 **Output**
  
- ![Chart_with_area_border_color.png](https://support.syncfusion.com/kb/agent/attachment/article/20750/inline?token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjQ0NTQxIiwib3JnaWQiOiIzIiwiaXNzIjoic3VwcG9ydC5zeW5jZnVzaW9uLmNvbSJ9.xr1cQu2rxHWkPnWciyazMsGLZKogRGoXZeEQsCYxjv4)
+ ![Chart_with_area_border_color.png](https://support.syncfusion.com/kb/agent/attachment/article/20750/inline?token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjQ0NTU2Iiwib3JnaWQiOiIzIiwiaXNzIjoic3VwcG9ydC5zeW5jZnVzaW9uLmNvbSJ9.CzijSulM9OzNm6pIIXQlZsR6eTWiWfnpz6sgjfZ74ek)
 
 ### Troubleshooting
 

@@ -13,7 +13,7 @@ public class CustomBorderDrawable : IDrawable
 {
     public void Draw(ICanvas canvas, RectF dirtyRect)
     {
-        canvas.StrokeColor = Colors.DarkSeaGreen;
+        canvas.StrokeColor = Colors.Orange;
         canvas.StrokeSize = 5;
         canvas.DrawRectangle(dirtyRect);
     }

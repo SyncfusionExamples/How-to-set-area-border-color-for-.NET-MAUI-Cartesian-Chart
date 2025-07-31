@@ -28,7 +28,7 @@
         </chart:SfCartesianChart.YAxes>
 
         <chart:ColumnSeries ItemsSource="{Binding Data}"
-                        Fill="DarkSeaGreen"
+                        Fill="CadetBlue"
                         XBindingPath="Name" 
                         YBindingPath="Height">
         </chart:ColumnSeries>

@@ -13,7 +13,7 @@
     <chart:SfCartesianChart>
 
         <chart:SfCartesianChart.PlotAreaBackgroundView>
-            <Border Stroke="DarkSeaGreen" StrokeThickness="5"></Border>
+            <Border Stroke="PaleVioletRed" StrokeThickness="5"></Border>
         </chart:SfCartesianChart.PlotAreaBackgroundView>
 
         <chart:SfCartesianChart.XAxes>
