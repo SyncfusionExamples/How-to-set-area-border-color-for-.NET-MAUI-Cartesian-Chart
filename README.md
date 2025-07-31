@@ -1,3 +1,5 @@
+How to set area border color for .NET MAUI Cartesian Chart
+
 In [.NET MAUI SfCartesianChart](https://www.syncfusion.com/maui-controls/maui-cartesian-charts), the [PlotAreaBackgroundView ](https://help.syncfusion.com/cr/maui-toolkit/Syncfusion.Maui.Toolkit.Charts.ChartBase.html#Syncfusion_Maui_Toolkit_Charts_ChartBase_PlotAreaBackgroundView) property allows you to customize the visual appearance of the chart’s plot area. This includes setting a border color and adding custom graphics.
 
 **Method 1: Using Border to Set Area Border Color**
