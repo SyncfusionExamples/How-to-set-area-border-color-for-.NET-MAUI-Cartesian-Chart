@@ -84,7 +84,7 @@ This method gives you full control over how the border is rendered, including cu
  
 **Output**
  
- ![Chart_with_area_border_color.png](https://support.syncfusion.com/kb/agent/attachment/article/20750/inline?token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjQ0NTYwIiwib3JnaWQiOiIzIiwiaXNzIjoic3VwcG9ydC5zeW5jZnVzaW9uLmNvbSJ9.6gJwdGo2ld8Bz-8gBLl5yl64OO13nSRR15L3SCRf7Ek)
+ ![Chart_with_area_border_color.png](https://support.syncfusion.com/kb/agent/attachment/article/20750/inline?token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjQ0NTYwIiwib3JnaWQiOiIzIiwiaXNzIjoic3VwcG9ydC5zeW5jZnVzaW9uLmNvbSJ9.6gJwdGo2ld8Bz-8gBLl5yl64OO13nSRR15L3SCRf7Ek) 
 
 ### Troubleshooting
 
