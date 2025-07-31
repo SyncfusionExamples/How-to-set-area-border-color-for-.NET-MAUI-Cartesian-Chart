@@ -94,4 +94,4 @@ This method gives you full control over how the border is rendered, including cu
 
 If you are facing a path too long exception when building this example project, close Visual Studio and rename the repository to a shorter name before building the project.
 
-For more details, refer to the KB on [How to set area border color for .NET MAUI Cartesian Chart]()
+For more details, refer to the KB on [How to set area border color for .NET MAUI Cartesian Chart](https://support.syncfusion.com/kb/article/20750/how-to-set-area-border-color-for-net-maui-cartesian-chart)
